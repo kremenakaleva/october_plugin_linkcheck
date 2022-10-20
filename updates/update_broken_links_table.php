@@ -1,4 +1,4 @@
-<?php namespace Bombozama\LinkCheck\Updates;
+<?php namespace Pensoft\LinkCheck\Updates;
 
 use Schema;
 use October\Rain\Database\Updates\Migration;

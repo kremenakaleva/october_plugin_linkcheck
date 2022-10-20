@@ -8,3 +8,5 @@
 1.0.5:
     - 'Updated table bombozama_linkcheck_broken_links'
     - update_broken_links_table.php
+1.0.6:
+    - 'fixes'

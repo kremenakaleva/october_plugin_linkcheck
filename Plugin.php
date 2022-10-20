@@ -56,7 +56,7 @@ class Plugin extends PluginBase
                 'description' => 'pensoft.linkcheck::lang.menu.brokenlinks.description',
                 'category'    => 'pensoft.linkcheck::lang.plugin.category',
                 'icon'        => 'icon-list',
-                'url'         => Backend::url('bombozama/linkcheck/brokenlinks'),
+                'url'         => Backend::url('pensoft/linkcheck/brokenlinks'),
                 'order'       => 411,
                 'permissions' => ['pensoft.linkcheck.view']
             ],
