@@ -1,0 +1,36 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    time:
+        label: pensoft.linkcheck::lang.strings.time
+        comment: pensoft.linkcheck::lang.strings.time_comment
+        placeholder: '* * * * *'
+        span: left
+    codes:
+        label: pensoft.linkcheck::lang.strings.codes
+        type: checkboxlist
+        span: right
+        default: 400,500
+        options:
+            200: pensoft.linkcheck::lang.strings.codes_opt_200
+            300: pensoft.linkcheck::lang.strings.codes_opt_300
+            400: pensoft.linkcheck::lang.strings.codes_opt_400
+            500: pensoft.linkcheck::lang.strings.codes_opt_500
+    checkCMS:
+        label: pensoft.linkcheck::lang.strings.check_cms
+        type: checkbox
+        default: true
+        span: left
+    modelators:
+        type: repeater
+        prompt: pensoft.linkcheck::lang.strings.modelators_prompt
+        label: pensoft.linkcheck::lang.strings.modelator
+        commentAbove: pensoft.linkcheck::lang.strings.modelator_comment
+        form:
+            fields:
+                modelator:
+                    emptyOption: pensoft.linkcheck::lang.strings.modelator_empty
+                    span: full
+                    type: dropdown

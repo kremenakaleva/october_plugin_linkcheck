@@ -1,0 +1,37 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+    status:
+        label: pensoft.linkcheck::lang.strings.status
+        searchable: true
+        width: 100px
+        type: httpstatus
+    url:
+        label: pensoft.linkcheck::lang.strings.url
+        searchable: true
+        select: url
+    plugin:
+        label: pensoft.linkcheck::lang.strings.plugin
+        searchable: true
+    model:
+        label: pensoft.linkcheck::lang.strings.model
+        searchable: true
+    model_id:
+        label: pensoft.linkcheck::lang.strings.model_id
+        searchable: true
+        select: model_id
+        width: 110px
+    context:
+        invisible: true
+        searchable: false
+    field:
+        label: pensoft.linkcheck::lang.strings.field
+        searchable: true
+        width: 110px
+    created_at:
+        label: pensoft.linkcheck::lang.strings.created_at
+        type: timetense
+        searchable: false
+        width: 145px
